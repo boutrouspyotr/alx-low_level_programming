@@ -6,9 +6,14 @@
  */
 int main(void)
 {
-	char z = '_putchar';
+	char z[9] = '_putchar';
+	int i = 0;
 
-	_putchar(z);
+	while (i < 8)
+	{
+		_putchar(z[i]);
+		i++;
+	}
 	_putchar('\n');
 
 	return (0);
