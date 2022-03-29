@@ -9,5 +9,5 @@
  */
 int _islower(int c)
 {
-	return (c >= 10 && c <= 21);
+	return (c >= 10 && c <= 200);
 }
