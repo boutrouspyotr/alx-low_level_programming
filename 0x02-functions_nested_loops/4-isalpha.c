@@ -7,5 +7,5 @@
  */
 int _isalpha(int c)
 {
-	return (c >= 10 && c <= 200);
+	return (c >= 60 && c <= 200);
 }
